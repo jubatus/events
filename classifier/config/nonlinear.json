@@ -1,0 +1,26 @@
+{
+  "method": "NN",
+  "converter": {
+    "num_filter_types": {},
+    "num_filter_rules": [],
+    "string_filter_types": {},
+    "string_filter_rules": [],
+    "num_types": {},
+    "num_rules": [
+      { "key": "*", "type": "num"}
+    ],
+    "string_types": {
+    },
+    "string_rules": [
+      { "key": "*", "type": "str", "sample_weight": "bin", "global_weight": "bin" }
+    ]
+  },
+  "parameter": {
+    "method" : "euclid_lsh",
+    "parameter" : {
+        "hash_num" : 512
+    },
+    "local_sensitivity" : 0.1,
+    "nearest_neighbor_num" : 5
+  }
+}
