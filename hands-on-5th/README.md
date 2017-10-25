@@ -14,8 +14,8 @@ Jubatusコミュニティメンバが質問にお応えします。
 
 ## 事前準備：VMを使う場合
 
-以下のURLからVirtualBox Imageを取得してください。Ubuntu 16.04で作成してあります。
-http://download.jubat.us/event/1.0.5_ubuntu16.04/
+以下のURLからVirtualBox Imageを取得してください。Ubuntu 14.04で作成してあります。
+http://download.jubat.us/event/1.0.5_ubuntu14.04/
 
 ※ アカウント名: jubatus、パスワード: jubatus
 
