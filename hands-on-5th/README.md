@@ -12,8 +12,31 @@ Jubatusコミュニティメンバが質問にお応えします。
 - 登録ページ: https://jubatus-event-slackin.herokuapp.com/
 - slack: https://jubatus-event.slack.com/
 
+## 事前準備：VMを使う場合
 
-## 事前準備：DockerやVMを使わず、自分の環境にJubatusをインストールする場合
+以下のURLからVirtualBox Imageを取得してください。Ubuntu 16.04で作成してあります。
+http://download.jubat.us/event/1.0.5_ubuntu16.04/
+
+※ アカウント名: jubatus、パスワード: jubatus
+
+ハンズオン当日までに、VMが起動できることを確認しておいてください。
+
+## 事前準備：Dockerを使う場合
+
+### Dockerイメージのダウンロード
+```
+$ docker pull jubatus/hands-on-5th
+```
+
+### コンテナの起動確認
+```
+$ docker run -p 8888:8888 -it jubatus/hands-on-5th /bin/bash
+$ jupyter notebook &
+```
+上記のコマンドを実行した後に、ブラウザで http://127.0.0.1:8888 にアクセスし、Jupyterが起動していることを確認しておいてください。
+
+
+## 事前準備：自分の環境にJubatusをインストールする場合
 
 ### Jubatusのインストール
 
@@ -44,28 +67,4 @@ $ git clone https://github.com/jubatus/events
 
 Python特徴抽出プラグインを利用した実験を試したい場合には、
 `events/hands-on-5th/python-plugin`にPYTHONPATHを通しておいてください。
-
-## 事前準備 (Dockerを使う場合)
-
-### Dockerイメージのダウンロード
-```
-$ docker pull jubatus/hands-on-5th
-```
-
-### コンテナの起動確認
-```
-$ docker run -p 8888:8888 -it jubatus/hands-on-5th /bin/bash
-$ jupyter notebook &
-```
-上記のコマンドを実行した後に、ブラウザで http://127.0.0.1:8888 にアクセスし、Jupyterが起動していることを確認しておいてください。
-
-
-## 事前準備（VMを使う場合）
-
-以下のURLからVirtualBox Imageを取得してください。Ubuntu 16.04で作成してあります。
-http://download.jubat.us/event/1.0.5_ubuntu16.04/
-
-※ アカウント名: jubatus、パスワード: jubatus
-
-ハンズオン当日までに、VMが起動できることを確認しておいてください。
 
