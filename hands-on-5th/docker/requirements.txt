@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+statsmodels
+jupyter
+jubatus
+jubakit
+embedded_jubatus
