@@ -47,13 +47,16 @@ Jubatus公式ページを見ながらインストールしてください。
 ### Python依存パッケージのインストール
 
 ハンズオンを実行するために、いくつかのPythonライブラリが必要になります。
-なお、ハンズオンの一部でPython2系を利用しますので、Python2で実行されることをオススメします。
+なお、ハンズオンの特徴抽出プラグインの説明でPython2系を利用しますので、Python2で実行されることをオススメします。
+（※ Python2系で上手くインストールできない場合には、Python3系でも試してみてください）
 
 ```
 $ pip install --upgrade pip
 $ pip install Cython
 $ pip install numpy scipy pandas matplotlib scikit-learn statsmodels jupyter jubatus jubakit embedded_jubatus
 ```
+
+- 注意: embedded_jubatus をインストールするためには 
 
 ### GitHubリポジトリの取得
 
