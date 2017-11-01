@@ -9,7 +9,7 @@
 事前準備のインストールに躓いたり、イベント中にわからないことがあったら
 Jubatusコミュニティメンバが質問にお応えします。
 
-- 登録ページ: https://jubatus-event-slackin.herokuapp.com/
+- 登録ページ: https://goo.gl/BSmynr
 - slack: https://jubatus-event.slack.com/
 
 ## 事前準備：VMを使う場合
