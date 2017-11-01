@@ -70,3 +70,6 @@ $ git clone https://github.com/jubatus/events
 Python特徴抽出プラグインを利用した実験を試したい場合には、
 `events/hands-on-5th/python-plugin`にPYTHONPATHを通しておいてください。
 
+### アンケートにご協力お願いします
+
+[アンケートページ](https://goo.gl/forms/3ijKi10QUMSsGHki1)
