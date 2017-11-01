@@ -16,7 +16,7 @@ Jubatusコミュニティメンバが質問にお応えします。
 
 以下のURLからVirtualBox Imageを取得してください。Ubuntu 14.04で作成してあります。
 http://download.jubat.us/event/1.0.5_ubuntu14.04/
-- Jubatus-Handson.zip で解答に失敗した場合には、Jubatus-Handson-mirror.zip を試してみてください。
+- Jubatus-Handson.zip で解凍に失敗した場合には、Jubatus-Handson-mirror.zip を試してみてください。
 
 ※ アカウント名: jubatus、パスワード: jubatus
 
