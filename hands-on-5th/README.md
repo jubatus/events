@@ -16,6 +16,7 @@ Jubatusコミュニティメンバが質問にお応えします。
 
 以下のURLからVirtualBox Imageを取得してください。Ubuntu 14.04で作成してあります。
 http://download.jubat.us/event/1.0.5_ubuntu14.04/
+- Jubatus-Handson.zip で解答に失敗した場合には、Jubatus-Handson-mirror.zip を試してみてください。
 
 ※ アカウント名: jubatus、パスワード: jubatus
 
@@ -55,8 +56,6 @@ $ pip install --upgrade pip
 $ pip install Cython
 $ pip install numpy scipy pandas matplotlib scikit-learn statsmodels jupyter jubatus jubakit embedded_jubatus
 ```
-
-- 注意: embedded_jubatus をインストールするためには 
 
 ### GitHubリポジトリの取得
 
